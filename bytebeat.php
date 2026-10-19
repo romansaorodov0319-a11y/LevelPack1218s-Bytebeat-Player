@@ -113,6 +113,8 @@ function addSongForm() {
 								<option value="RAW">RAW</option>
 								<option value="Signed RAW">Signed RAW</option>
 								<option value="FloatRAW">FloatRAW</option>
+								<option value="PWM Beat">PWM Beat</option>
+								<option value="Inverted Bytebeat">Inverted Bytebeat</option>
 							</select>
 							<input type="text" name="samplerate" placeholder="Sample rate (Hz)">
 							<label style="white-space: nowrap;"><input type="checkbox" name="stereo"> Stereo</label>
@@ -153,6 +155,7 @@ function addSongForm() {
 								<option value="Waveform">Waveform</option>
 								<option value="Diagram">Diagram</option>
 								<option value="Combined">Combined</option>
+								<option value="FFT">FFT</option>
 							</select>
 							<input type="text" name="drawing_scale" placeholder="1=1/2, 2=1/4, 3=1/8 ...">
 						</td>
