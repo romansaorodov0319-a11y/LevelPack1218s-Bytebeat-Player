@@ -153,6 +153,7 @@ function addSongForm() {
 								<option value="Waveform">Waveform</option>
 								<option value="Diagram">Diagram</option>
 								<option value="Combined">Combined</option>
+								<option value="FFT">selected>FFT</option>
 							</select>
 							<input type="text" name="drawing_scale" placeholder="1=1/2, 2=1/4, 3=1/8 ...">
 						</td>
